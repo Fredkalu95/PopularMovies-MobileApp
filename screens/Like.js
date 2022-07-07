@@ -1,19 +1,22 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, Button } from "react-native";
 
-export default function SearchScreen() {
+export default function Like() {
   return (
     <View style={styles.container}>
       <Text>This is the search screen</Text>
+    
+      
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    
     backgroundColor: "#fff",
-    alignItems: "center",
+    alignItems: "top",
     justifyContent: "center",
   },
 });
+
